@@ -1,6 +1,5 @@
 import streamlit as st
 from PIL import Image
-import sklearn
 
 st.markdown("<h1 style='text-align: center; color: darkgreen;'>House Price Prediction</h1>", unsafe_allow_html=True)
 
