@@ -21,7 +21,7 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
-image = Image.open('C:/Users/priya/Downloads/house.jpg')
+image = Image.open('house.jpg')
 st.image(image, width = 680)
 
 st.write('_Happy Predicting!_')
