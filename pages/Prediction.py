@@ -2,6 +2,7 @@
 import numpy as np
 import streamlit as st
 import pickle
+import sklearn
 
 # Loading the model to predict on the data
 pickle_in = open('linear', 'rb')
