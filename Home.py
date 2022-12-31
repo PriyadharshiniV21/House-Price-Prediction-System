@@ -28,7 +28,7 @@ st.markdown(
 )
 
 image = Image.open('house.jpg')
-st.image(image)
+st.image(image, width = 300)
 
 st.write('_Happy Predicting!_')
 
