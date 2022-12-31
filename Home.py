@@ -1,7 +1,13 @@
 import streamlit as st
 from PIL import Image
 
-st.markdown("<h1 style='text-align: center; color: darkgreen;'>House Price Prediction</h1>", unsafe_allow_html=True)
+st.set_page_config(
+    page_title = "House Price Prediction",
+    layout = "wide",
+    initial_sidebar_state = "expanded"
+)
+
+st.title('House Price Prediction')
 
 st.write('Hello Folks! Welcome to my _House Price Prediction_ website.')
 st.write('Here you will find prices for the houses in **Bengaluru, Karnataka**. Use my prediction website '
@@ -22,7 +28,7 @@ st.markdown(
 )
 
 image = Image.open('house.jpg')
-st.image(image, width = 680)
+st.image(image)
 
 st.write('_Happy Predicting!_')
 
