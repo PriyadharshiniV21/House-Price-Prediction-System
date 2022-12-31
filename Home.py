@@ -9,9 +9,14 @@ st.set_page_config(
 
 st.title('House Price Prediction')
 
-st.write('Hello Folks! Welcome to my _House Price Prediction_ website.')
-st.write('Here you will find prices for the houses in **Bengaluru, Karnataka**. Use my prediction website '
-         'to find the price of your dream house in Bengaluru.')
+st.write('Hello Folks!👋😃')
+st.write('Welcome to my _House Price Prediction_ website.')
+st.caption(' ### **_Home is not a place… it’s a feeling!_**')
+st.write('Home is the dream of many people because it is one of the few things that give happiness and '
+         'comfort to everyone. Dream homes can have designs that vary from person to person and this '
+         'has led to many beautiful dream homes. Here you will find prices for the houses in '
+         '**Bengaluru, Karnataka**. Use my prediction website to find the price of your dream house in '
+         'Bengaluru.')
 
 st.markdown(
     """
@@ -28,8 +33,8 @@ st.markdown(
 )
 
 image = Image.open('house.jpg')
-st.image(image, width = 300)
+st.image(image, width = 380)
 
-st.write('_Happy Predicting!_')
+st.write('_Happy Predicting!_:smile:')
 
 st.sidebar.markdown('## Home')
